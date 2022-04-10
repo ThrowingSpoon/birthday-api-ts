@@ -2,7 +2,7 @@
 import { jest } from '@jest/globals';
 import request from 'supertest';
 import PersonProvider from '../providers/person/PersonProviderType';
-import PersonService from '../services/PersonServiceType';
+import PersonService from '../services/person/PersonServiceType';
 import App from '../src/app';
 import { Person } from '../types/person';
 

@@ -1,5 +1,5 @@
-import PersonProvider from '../providers/person/PersonProviderType';
-import { Person } from '../types/person';
+import PersonProvider from '../../providers/person/PersonProviderType';
+import { Person } from '../../types/person';
 
 type PersonService = {
   createPerson: (personProvider: PersonProvider, person: Person) => Promise<boolean>;

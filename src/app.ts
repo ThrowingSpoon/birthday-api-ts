@@ -1,7 +1,7 @@
 import express, { Application } from 'express';
 import bodyParser from 'body-parser';
 import PersonProvider from '../providers/person/PersonProviderType';
-import PersonService from '../services/PersonServiceType';
+import PersonService from '../services/person/PersonServiceType';
 
 class App {
   static makeApp: (personService: PersonService, personProvider: PersonProvider) => Application;

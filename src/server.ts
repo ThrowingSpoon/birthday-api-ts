@@ -1,6 +1,6 @@
 import dotenv from 'dotenv';
 import personRelationalDb from '../providers/person/PersonRelationalDb';
-import personService from '../services/PersonService';
+import personService from '../services/person/PersonService';
 import App from './app';
 
 dotenv.config();
